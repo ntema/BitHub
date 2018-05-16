@@ -1,0 +1,51 @@
+
+body {
+	background-color: white;
+	font-family: tahoma;
+}
+
+.logo_style{
+	height: 30px; width: 130px;
+	margin-top-top: 5px;
+	clear: both; 
+}
+
+nav{
+	background-color: gray;
+	clear:both;
+}
+
+ nav ul{
+	background-color: gray;
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	/*
+	background-color: gray;
+	margin: auto 0px;
+    padding-left: 800px;
+    */
+
+
+}
+nav li{
+	float: right;
+	
+	/*display: inline;*/
+
+	
+}
+
+nav li a{
+	display: inline-block;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	 text-decoration: none;
+	/*
+	text-align: right;
+	text-decoration: none;
+	*/
+
+}

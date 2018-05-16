@@ -1,0 +1,27 @@
+ul {
+    display: flex;/*or inline-flex*/
+  /* flex-direction: column-reverse;*/
+    list-style: none;
+    border: solid 1px red;
+    padding: 0;
+    min-height: 250px;
+    /*flex-wrap: wrap;*/
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+li {
+    width: 200px;
+    background-color: #8cacea;
+    margin: 8px;}
+
+li:not(:first-child){
+  font-size: 2rem;
+}
+
+/*
+li a:hover:not(.active) {
+    background-color: #111;
+}
+*/
+
